@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+/* Makeshift CSS Reset remove htlm5 margins */
+{
+    margin: 0;
+	padding: 0;
+}
+
+
+
+/* -------- Global settings -------- */
+body {
+	background: #f0f0f0;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+
+h1 {}
+h2{font-size: 28px; padding: 1px;}
+h3 {font-size: 18px; line-height: 5px; padding: 1px;}
+p {padding-bottom: 2px; size: 13px;}
+ul {margin: 0; padding: 0;}
+li {list-style: none; margin: 5px;}
+span {font-size: 13px;}
+
+
+/* -------- The layout of index.php --------*/
+#pageContainer {
+	margin: 0px auto 0px auto;
+	width: 100%;
+}
+
+#pageHeader {
+	background-image: url('images/headerbildskainhär.jpg');
+	background-position: top left;
+	/* height: 47px; */
+	/* width: 315px; */
+}
+#pageContent {
+	background-color: #f0f0f0;
+	min-height:100%;
+	overflow: auto;
+	padding:10px 0px 10px 0px;
+	text-align: center;
+	width: 100%;
+}
+#pageFooter {
+	margin: 0px auto;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+
+/* ----------- content frames -------------- */
+
+#ContentHeader {}
+
+.ContentPic{
+	border: 1px;
+	width: 450p;
+}
+
+.ContentText{}
+
+.ContentList{}
+
+.ContentLogin{
+    text-align: center;
+}
+
+/* ----------- Character creation info -----------------*/
+
+#charinfoframe {}
+
+/* ----------------------- Table info ------------------*/
+
+.nTable {
+	/* background-color: */
+	/* border-collapse: collapse; */
+	/* border: 1px; */
+}
+	.nTable th {
+		/* background-color:#000000*/
+		color: white;
+		
+	}
+	.nTable td {
+		font-size: 13px;
+		
+	}
+	
+	.nTable th, .nTable td {
+		padding: 10px;
+	/*	border: 1px solid #000; */
+	}
+	
+.aTable {
+	border-collapse: collapse;
+	border: 1px;
+	font-size: 13px;
+/*	border-spacing: 10px;*/
+}
+
+	.aTable tr, .aTable td {
+		padding: 1px;
+		border: 1px solid #000;
+		width: 200px;
+		text-align: center;
+	}
+	
+	.aTable th {
+		background-color: #AAAF00;
+		color: black;
+		border: 1px solid #000;
+		height: 20px;
+		padding: 1px;
+		line-height: 14px;
+	}
+	
+	.aTable td:first-of-type {
+		width: 70px;
+	}
+
+
+
+/* --------------- Animal info page ------------------ */
+
+
+
+
+
+
+
+/* -------- The layout of main side --------*/
+/* Tell the browser to render HTML 5 elements as block */
+header, aside, nav, article {
+    display: block;
+}
+
+header {
+    bottom: 0;
+    display: block;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: right;
+    width: 960px;
+    
+}
+
+
+footer {
+	/* position: absolute; */
+	background-image: url("menu_space960-blue.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 960px;
+	bottom: 0;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end of changed css layout */
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    position: absolute;
+	background-image: url("menu_space2-960-blue.png");
+	background-repeat: no-repeat;
+}
+
+nav ul {
+    margin: 0 auto;
+	width: 960px;
+	list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+    nav ul li a {
+	    display: block;
+		margin-right: 20px;
+		width: 140px;
+		font-size: 14px;
+		line-height: 44px;
+		text-align: center;
+		text-decoration: none;
+		color: #777;
+	}
+	
+	    ul li a:hover {
+		    color: #ff0000;
+	    }
+		
+		ul li.selected a {
+		    color: #FAAF00;
+		}
+	
+	#content {
+	    display: table;
+		margin-top: 70px;
+	}
+
+	    #tableOfContent {
+	    display: table-cell;
+		width: 400px;
+		float: right;
+		color: #000000;
+		padding-left: 1px;
+		padding-right: 77px;
+		padding-bottom: 15px;
+		background-size: 100%;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+	}
+		
+
+	
+		#ainfo {
+		display: table-cell;
+		width: 950px;
+		float: left;
+		color:: #000000;
+/*		border: 1px solid #000; */
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-bottom: 12px;
+		padding-top: 12px;
+		
+	}
+	
+		#mainPicture {
+		display: table-cell;
+		width: 450px;
+		height: 320px;
+		float: left;
+/*		border: 1px solid #000; */
+		
+		
+	}
+	
+	    #mainContent {
+		display: table-cell;
+		width: 630px;
+		float: right;
+		padding: 7px;
+		margin-left: 20px;
+		background-size: 100%;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+		border-spacing: 10px;
+	}
+			
+		#mainSecond {
+		display: table-cell;
+		width: 630px;
+		float: right;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		padding: 7px;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+		border-spacing: 10px;
+	}
+	
+a:link {
+	text-decoration:none;
+	color: #408010
+}
+a:visited {
+	text-decoration:none;
+	color: #408010
+	}
+a:hover {
+	text-decoration:none;
+	color: #809910
+}
+a:active {
+	text-decoration:underline overline;
+	color: #408090
+}
+	
+
+
+	
+
+	
+
+
+
+/* Shared for all accordion types */
+.accordion {
+    font-family:Arial, Helvetica, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+    border:1px solid #542437;
+    border-radius:10px;
+    width:600px;
+    padding:10px;
+    background:#fff;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    background:#D95B43;
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:#C02942;
+    color:#FFF;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+}
+.accordion .content {
+    padding:0 10px;
+    overflow:hidden;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.accordion p {
+    color:#333;
+    margin:0 0 10px;
+}
+.accordion h3 {
+    color:#542437;
+    padding:0;
+    margin:10px 0;
+}
+
+.spoiler
+    {
+    border:0px solid #ddd;
+    padding:3px;
+    }
+.spoiler .inner
+    {
+    border:0px solid #eee;
+    padding:3px;margin:3px;
+    }
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+    border:1px solid #542437; /* We don't want the border to disappear on hover */
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:300px;
+    border:1px solid #542437;
+}

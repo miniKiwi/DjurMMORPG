@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="djmmorpg-css.css">
+<!-- here a future link to javascript library? -->
+<title>DjurMMORPG</title>
+</head>
+
+<body>
+<header>
+<h3>DJUR SIMULATION MMORPG</h3>
+<nav></nav>
+</header>
+<a href="djurspel-plan_CCreation.html">Character Creation</a>
+<div id="content">
+<a href="Birdbase.html">Birdbase</a>
+
+<!-- <div class="accordion vertical">
+    <ul>
+        <li>
+            <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
+            <label for="checkbox-1">TITLE</label>
+            <div class="content"> -->
+<table class="nTable">
+<tr>
+<td>
+<dl>
+<dt>Genetics</dt>
+<br>
+<dt>Interactions (RPG)</dt>
+	<dd>Fight (hunt?)</dd>
+	<dd>Friendly</dd>
+	<dd>Self / enviroment</dd>
+	</td>
+	<td>
+<dt>NPCs</dt>
+	<dd>Eat</dd>
+	<dd>Drink</dd>
+	<dd>Hunt</dd>
+	<dd>Interact</dd>
+	<dd>Sleep/rest</dd>
+	<dd>Breed</dd>
+	<dd>Sicknesses</dd>
+	<dd>Age</dd>
+	</td>
+	<td>
+<dt>Enviroment</dt>
+	<dd>Seasons</dd>
+		<dd>Winter, Summer, Spring, Autumn / Dry and wet season</dd>
+	<dd>Events</dd>
+		<dd>Wildfire</dd>
+		<dd>Storm</dd>
+		<dd>Flood</dd>
+		</td>
+		</tr>
+		</table>
+		</p>
+		
+Eat<br>
+Drink<br>
+Hunt<br>
+Rest<br>
+Breed<br>
+Survive nature<br>
+Survive diseases<br>
+Survive predators<br>
+Fighting<br>
+<br>
+<b>GUI</b><br>
+<dt>Player Character</dt>
+<dd>Healthbar</dd>
+<dd>Name of character</dd>
+<dd>Picture of character</dd>
+<dd>Age</dd>
+<dd>Gender</dd>
+<dd>Status bars</dd>
+<dd>&#160; Hunger</dd>
+<dd>&#160; Thirst</dd>
+<dd>&#160; Rest</dd>
+<dd>&#160; Clean</dd>
+<dd>Heat (female)</dd>
+<dd>Sick (if sick)</dd>
+<dt>A Map</dt>
+<dt>Target (animal)</dt>
+<dd>Name</dd>
+<dd>Gender</dd>
+<dd>Age</dd>
+<dd>Friendship status</dd>
+<dd>Health</dd>
+<dd>Sick (if target sick)</dd>
+<dd>Heat (if target female)</dd>
+<dt>Scent marks</dt>
+<dd>Name (of marker)</dd>
+<dd>Gender</dd>
+<dd>Age (of marker)</dd>
+<dd>Sick (if sick, at time of marking)</dd>
+<dd>Heat (at time of marking, if marker female)</dd>
+
+
+
+<!-- 
+        </li>
+		    </ul>
+</div> -->
+<h3>PLACES</h3>
+<p>
+Varje <a href="#">plats/område</a> i spelet behöver ha tillräckligt många djursorter av rätt typ. Ex. rovdjur, bytesdjur till valda rovdjur, samt ofc växter till bytesdjuren etc. (växter tar vi senare). Jag har valt ut ett par "platser" som får fyllas ut med lämpliga djursorter för varje område..<br><br>
+<li>(apex) Stort solitärt rovdjur (björndjur/kattdjur)</li>
+<li>evapex Stort socialt rovdjur (hundjur)</li>
+<li>medh Medium solitärt rovdjur (hunddjur)</li>
+<li>medk Medium socialt rovdjur (kattdjur)</li>
+<li>apex Stor jagande rovfågel</li>
+<li>evapex Stor asätande/omnivore fågel</li>
+<li>med jagande fågel</li>
+<li>med bytes fågel</li>
+<li>liten bytes fågel</li>
+<table class="nTable">
+	<tr>
+		<td>
+		<p>stort</p>
+		</td>
+		<td>
+		<p>solitärt</p>
+		</td>
+		<td>
+		<p>rovdjur</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>stort</p>
+		</td>
+		<td>
+		<p>socialt</p>
+		</td>
+		<td>
+		<p>rovdjur</p>
+		</td>
+	</tr>
+</table>
+<div>
+
+</div>
+<br> Alternativt skulle man kanske kunna ta en av varje djursort på varje plats.. hmm..<br>
+
+<br><p>Eventuellt att alla djur är länkade till sin egna informationssida.</p>
+
+björnar
+kattdjur
+hunddjur
+
+felidae
+viverridae
+hyaenidae
+herpestidae (mongooses)
+eupleridae (madagascar)
+canidae
+ursidae
+odobenidae (walrus only)
+ailuridae (red panda only)
+mephitidae (skunks)
+procyonidae (raccoons, kinkajous etc)
+mustelidae
+pinnipedia (seals, walrus etc)
+<br><br>
+<p>
+<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/neotropic_ecozone.gif" width="100px">
+The <b>Neotropical</b> ecozone incorporates South and Central America, plus the southern part of Mexico, the Caribbean Islands and Florida.</p>
+<br>
+<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/palearctic_ecozone.gif" width="100px">
+The Palaearctic ecozone is the world's largest. It covers northern Africa, Europe, the northern part of Arabia and all of Asia north of the Himalayas. Japan and Iceland are also part of this ecozone.
+<br>
+<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/nearctic_ecozone.gif" width="100px"> 
+The <b>Nearctic</b> ecozone covers North America, including northern Mexico and Greenland. Florida, though, sits outside this ecozone. 
+<br>
+<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/indomalaya_ecozone.gif" width="100px">
+The <b>Indomalayan</b> ecozone covers south and south-east Asia. It stretches from Afghanistan in the west to Japan's Ryukyu Islands in the east and Borneo in the south.
+<br>
+<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/australasia_ecozone.gif" width="100px">
+The <b>Australasian</b> ecozone covers Australia, New Guinea and the easternmost islands of the Indonesian archipelago, including Sulawesi and the Lesser Sundas. New Zealand is also part of this ecozone.
+<br><br>
+
+<h3>AFRIKA</h3>
+(Lejon, vildhund, hyena, jackal, serval, leopard, gepard, vattenbuffel, flodhäst, giraff, elefant, noshörning, zebra, gnu, bongo, kanin, ev. mus, duva, svan, <b>kungsörn</b>, gazelle, gam, <b>fiskgjuse</b>, tornuggla, struts, krokodil, <b>flamingo</b>, <b>meerkat</b>, warthog)
+<br><br>SAVANNAH<br><img src=""> Sub-saharan, all of Africa expect for north and rainforest. (Africa's Horn will probably have it's own table though..)
+
+<!-- procyonidae (raccons, kinkajou etc) - AMERIKA RAIN. Skunkar mephitidae (skunks) också AMERIKA RAIN. Weasels !-->
+<!-- No bears in africa! They live in america and europe. !-->
+<!-- Maned wolves live in south america -->
+<!-- Common Kestrel lives in Scandinavia! -->
+<table class="aTable" id="tableAfricaSavannah">
+	<tr>
+		<th>
+		<p>TYPE</p>
+		</th>
+		<th>
+		<p>Felidae</p>
+		</th>
+		<th>
+		<p>Canidae</p>
+		</th>
+		<th>
+		<p>ANNAT - ursidae (björnar)</p>
+		</th>
+		<th>
+		<p>Ungulates</p>
+		</th>
+		<th>
+		<p>Aves</p>
+		</th>
+		<th>
+		<p>Raptor</p>
+		</th>
+		<th>
+		<p>Rodentia</p>
+		</th>
+		<th>
+		<p>Reptile</p>
+		</th>
+	</tr>
+	<tr>
+		<td width="50">
+		<p>apex <br>(top)</p>
+		</td>
+		<td>
+		<p><a href="AfricanLion.html">Lion</a><br><i>Panthera Leo</i></p>
+		</td>
+		<td>
+		<p><a href="HyenaSpotted.html">Spotted Hyena</a> (eg katt)<br><i>Crocuta Crocuta<i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>African Buffalo<br><i>Syncerus Caffer</i></p>
+		</td>
+		<td>
+		<p>Ostrich<br><i>Struthio Camelus</i></p>
+		</td>
+		<td>
+		<p><a href="EagleMartial.html">Martial Eagle</a><br><i>Polemaetus Bellicosus</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Nile Crocodile<br><i>Crocodylus Niloticus</i></p>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+		<p>evapex / large<br><small>(Toppjägare #2.)</small></p>
+		</td>
+		<td>
+		<p>Leopard<br><i>Panthera Pardus</i></p>
+		</td>
+		<td>
+		<p>African Wild Dog<br><i>Lycaon Pictus</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Plains Zebra<br><i>Equus Quagga</i></p>
+		</td>
+		<td>
+		<p>Common Crane</p>
+		</td>
+		<td>
+		<p><a href="VultureRuppells.html">Rüpell's Vulture</a><br><i>Gyps Rueppellii</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>African Spurred Tortoise</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>medium<br><small></small></p>
+		</td>
+		<td>
+		<p><a href="Cheetah.html">Cheetah</a><br><i>Acinonyx Jubatus</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		</td>
+		<td>
+		<p>Blue Wildebeest<br><i>Connochaetes Taurinus</i></p>
+		</td>
+		</td>
+		<td>
+		<p>Helmeted Guineafowl<br><i>Numida Meleagris</i></p>
+		</td>
+		<td>
+		<p><a href="HawkAfricanHarrier.html">African Harrier Hawk</a><br><i>Polyboroides Typus</i></p>
+		</td>
+		<td>
+		<p>African Savannah Hare<br><i>Lepus Microtis</i></p>
+		</td>
+		<td>
+		<p>African Rock Python<br><i>Python Sebae</i></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>small<br><small></small></p>
+		</td>
+		<td>
+		<p>Serval<br><i>Leptailurus Serval</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Gazelle</p>
+		</td>
+		</td>
+		<td>
+		<p>Laughing Dove<br><i>Spilopelia Senegalensis</i></p>
+		</td>
+		<td>
+		<p><a href="OwlBarn.html">Barn Owl</a><br><i>Tyto Alba</i></p>
+		</td>
+		<td>
+		<p>Gambian Pouched Rat<br><i>Cricetomys Gambianus</i></p>
+		</td>
+		<td>
+		<p>Puff Adder<br><i>Bitis Arietans</i></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>tiny<br><small></small></p>
+		</td>
+		<td>
+		<p><a href="WildcatAfrican.html">African Wildcat</a><br><i>Felis Silvestris Lybica</i></p>
+		</td>
+		<td>
+		<p>Side-striped jackal<br><i>Canis Adustus</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Klipspringer<br><i>Oreotragus Oreotragus</i></p>
+		</td>
+		<td>
+		<p><a href="FinchRedBilledFire.html">Red-Billed Firefinch</a><br><i>Lagonosticta Senegala</i></p>
+		</td>
+		<td>
+		<p><a href="FalconPygmy.html">Pygmy Falcon</a><br><i>Polihierax semitorquatus</i></p>
+		</td>
+		<td>
+		<p><a href="MouseNatalMultimammate.html">Natal Multimammate Mouse</a><br><i>Mastomys Natalensis</i></p>
+		</td>
+		<td>
+		<p>Common Egg-Eater<br><i>Dasypeltis Scabra</i></p>
+		</td>
+	</tr>
+</table>
+<p><b>Bonus:</b> Hyena, <b>African Bush Elefant</b>, <b>Giraff</b>, <b>Noshörning</b>, Svartråtta, <b>Flodhäst</b>, <b>African Civet</b>, (Bat-eared fox, sa), gold jackal, black-backed jackal, Bongo, <b>Warthog</b>, meerkats (kal), magpie, African penguin, <b>Bat Hawk</b>, Egyptian Vulture, <b>Bateleur eagle</b>, Peregrine falcon, Greater flamingo, Lesser flamingo, Pelican, Dugong, <b>Black Mamba</b>, <b>Osprey</b>, Springbok, Common Eland, Greater Kudu, Roan Antelope, Ring-necked dove, Knob-billed duck, Secretary Bird, Barbary striped grass mouse, Black-bellied Bustard, White-necked Raven, Red-fronted Gazelle, Grant's Gazelle, Kirk's dik-dik, Salt''s dik-dik/Guenther's dik-dik, <b>Aardvark</b>, Spiny Mouse, Common Genet, <b>Caracal</b>, Brown Hyena, Honey Badger, Thomson's Gazelle, Giant Kingfisher</p>
+</p>
+<b>AFRICAS HORN, SOUTH AFRICA/MIDST, NORTH AFRICA (sahara), AFRICAN RAINFOREST</b><br>
+DESERT<br> North Africa (Sahara)
+<table class="aTable" id="tableAfricaDesert">
+	<tr>
+		<th>
+		<p>TYPE</p>
+		</th>
+		<th>
+		<p>Felidae</p>
+		</th>
+		<th>
+		<p>Canidae</p>
+		</th>
+		<th>
+		<p>ANNAT - Ursidae</p>
+		</th>
+		<th>
+		<p>Ungulates</p>
+		</th>
+		<th>
+		<p>Aves</p>
+		</th>
+		<th>
+		<p>Raptor</p>
+		</th>
+		<th>
+		<p>Rodentia</p>
+		</th>
+		<th>
+		<p>Reptile</p>
+		</th>
+	</tr>
+	<tr>
+		<td width="50">
+		<p>apex <br>(top)</p>
+		</td>
+		<td>
+		<p><a href="AfricanLion.html">Lion</a></p>
+		</td>
+		<td>
+		<p>Striped Hyena (eg katt)<br><i>Hyaena Hyaena</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Ostrich</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Crocodile</p>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+		<p>evapex <br><small>(Toppjägare #2.)</small></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Addax Antelope</p>
+		</td>
+		<td>
+		<p>Common Crane</p>
+		</td>
+		<td>
+		<p>Rüpell's Vulture<br><i>Gyps Rueppellii</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>African Spurred Tortoise</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>med<br><small></small></p>
+		</td>
+		<td>
+		<p>Gepard<br><i>Acinonyx Jubatus</i></p>
+		</td>
+		<td>
+		<p>Golden Jackal<br><i>Canis Aureus</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Common Buzzard</p>
+		</td>
+		<td>
+		<p>Kanin</p>
+		</td>
+		<td>
+		<p>African Rock Python</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>liten<br><small></small></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Rüppell's Fox<br><i>Vulpes Rueppellii</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Dorcas Gazelle<br><i>Gazella Dorcas</i></p>
+		</td>
+		</td>
+		<td>
+		<p>Duva</p>
+		</td>
+		<td>
+		<p>Tornuggla</p>
+		</td>
+		<td>
+		<p>Brown rat<br><i>Rattus Norvegicus</i></p>
+		</td>
+		<td>
+		<p>Puff Adder</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>minst<br><small></small></p>
+		</td>
+		<td>
+		<p>African Wildcat</p>
+		</td>
+		<td>
+		<p>Fennec Fox<br><i>Vulpes Zerda</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Klipspringer / Dik-Dik</p>
+		</td>
+		<td>
+		<p>Fink</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Mus / Råtta</p>
+		</td>
+		<td>
+		<p>Common Egg eater</p>
+		</td>
+	</tr>
+</table>
+<p><b>Bonus:</b> Dromedary Camel, Camel, Greater Wilfred's Mouse, Sand cat, Scimitar Oryx, Slender-horned Gazelle
+<br><br>
+<h3>NORTH AMERICA</h3>
+<table class="aTable" id="tableNorthAmerica">
+	<tr>
+		<th>
+		<p>TYPE</p>
+		</th>
+		<th>
+		<p>felidae (kattdjur)</p>
+		</th>
+		<th>
+		<p>canidae (hunddjur) & foxes</p>
+		</th>
+		<th>
+		<p>ursidae (björnar)</p>
+		</th>
+		<th>
+		<p>ungulates (hovdjur/klövdjur)</p>
+		</th>
+		<th>
+		<p>Aves</p>
+		</th>
+		<th>
+		<p>Raptor</p>
+		</th>
+		<th>
+		<p>Rodentia</p>
+		</th>
+		<th>
+		<p>Reptile</p>
+		</th>
+	</tr>
+	<tr>
+		<td width="50">
+		<p>apex <br>(top)</p>
+		</td>
+		<td>
+		<p>Cougar<br><i>Puma Concolor</i></p>
+		</td>
+		<td>
+		<p>Grey Wolf<br><i>Canis Lupus</i></p>
+		</td>
+		<td>
+		<p>Brown Bear / Grizzly Bear<br></p>
+		</td>
+		<td>
+		<p>American Bison<br><i>Bison Bison</i></p>
+		</td>
+		<td>
+		<p>American Pelican</p>
+		</td>
+		<td>
+		<p>Golden Eagle<br><i>Aquila Chrysaetos</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+		<p>evapex <br><small>(Toppjägare #2.)</small></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>Elk (wapiti)<br><i>Cervus Canadensis</i></p>
+		</td>
+		<td>
+		<p>Wild Turkey<br><i>Meleagris Gallopavo</i></p>
+		</td>
+		<td>
+		<p>Great Horned Owl<br><i>Bubo virginianus</i></p>
+		</td>
+		<td>
+		<p>North American Beaver</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>med<br><small></small></p>
+		</td>
+		<td>
+		<p>Canadian Lynx<br><i>Lynx Canadensis</i></p>
+		</td>
+		<td>
+		<p>Coyote</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		</td>
+		<td>
+		<p>White-tailed Deer</p>
+		</td>
+		</td>
+		<td>
+		<p>Canada Goose</p>
+		</td>
+		<td>
+		<p>Red-Tailed Hawk</p>
+		</td>
+		<td>
+		<p>Kanin</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>liten<br><small></small></p>
+		</td>
+		<td>
+		<p>Bobcat<br><i>Lynx Rufus</i></p>
+		</td>
+		<td>
+		<p>Red Fox</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		</td>
+		<td>
+		<p>Rock Pigeon<br><i>Columba Livia</i></p>
+		</td>
+		<td>
+		<p>Tornuggla</p>
+		</td>
+		<td>
+		<p>Easter Gray Squirrel</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>minst<br><small></small></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>House Sparrow<br><i>Passer Domesticus</i></p>
+		</td>
+		<td>
+		<p>American Kestrel</p>
+		</td>
+		<td>
+		<p>House Mouse<br><i>Mus musculus</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+</table>
+<p><b>Bonus:</b> Eastern gray squirrel OR American Red squirrel, <b>Raccoon</b>, <b>Ringtail</b>, <b>Wolverine</b>, Long-tailed weasel OR Stoat, Sea otter, American Badger, <b>Striped Skunk</b>, <b>Feral Horse</b>, Wild Boar, Moose, <b>Blue Jay</b>, Northern Cardinal, Peregrine falcon, American Crow, Common Buzzard?, Black-billed magpie, <b>Common Raven</b>, <b>Mallard</b>, <b>Bald Eagle</b>, <b>Osprey</b>, <b>Turkey vulture</b>, Cooper's Hawk, <b>American Bittern</b>, <b>Great Blue Heron</b>, Barn Swallow, American Robin, House Wren, American Kestrel, Eastern Chipmunk, <b>Black Vulture</b>, Musk Ox
+</div>
+<br>
+<h3>SOUTH AMERICA</h3> Rainforest, Amazonas, Brazil
+<table class="aTable" id="tableSouthAmerica">
+	<tr>
+		<th>
+		<p>TYPE</p>
+		</th>
+		<th>
+		<p>Felidae</p>
+		</th>
+		<th>
+		<p>Canidae</p>
+		</th>
+		<th>
+		<p>Ursidae</p>
+		</th>
+		<th>
+		<p>Ungulates</p>
+		</th>
+		<th>
+		<p>Aves</p>
+		</th>
+		<th>
+		<p>Raptor</p>
+		</th>
+		<th>
+		<p>Rodentia</p>
+		</th>
+		<th>
+		<p>Reptile</p>
+		</th>
+	</tr>
+	<tr>
+		<td width="50">
+		<p>apex <br>(top)</p>
+		</td>
+		<td>
+		<p>Jaguar<br><i>Panthera Onca</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>?<br></p>
+		</td>
+		<td>
+		<p>South American Tapir<br><i>Tapirus Terrestris</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Harpy Eagle<br><i>Harpia Harpyja</i></p>
+		</td>
+		<td>
+		<p>Capybara<br><i>Hydrochoerus Hydrochaeris</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+		<p>evapex <br><small>(Toppjägare #2.)</small></p>
+		</td>
+		<td>
+		<p>Cougar<br><i>Puma Concolor</i></p>
+		</td>
+		<td>
+		<p>Maned Wolf<br><i>Chrysocyon Brachyurus</i></p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Black Vulture<br><i>Coragyps Atratus</i></p>
+		</td>
+		<td>
+		<p>Porcupine</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>med<br><small></small></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Coyote</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		</td>
+		<td>
+		<p>White-tailed Deer</p>
+		</td>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>Peregrine Falcon</p>
+		</td>
+		<td>
+		<p>Kanin</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>liten<br><small></small></p>
+		</td>
+		<td>
+		<p>Jagarundi<br><i>Puma Yagouaroundi</i></p>
+		</td>
+		<td>
+		<p>Red Fox</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		</td>
+		<td>
+		<p>Rock Pigeon<br><i>Columba Livia</i></p>
+		</td>
+		<td>
+		<p>Barn Owl<br><i>Tyto Alba</i></p>
+		</td>
+		<td>
+		<p>Brown rat</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>minst<br><small></small></p>
+		</td>
+		<td>
+		<p>Margay<br><i>Leopardus Wiedii</i></p>
+		</td>
+		<td>
+		<p>Side-striped jackal</p>
+		</td>
+		<td>
+		<p>-</p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+		<td>
+		<p>House Sparrow</p>
+		</td>
+		<td>
+		<p>Common Kestrel</p>
+		</td>
+		<td>
+		<p>House Mouse<br><i>Mus musculus</i></p>
+		</td>
+		<td>
+		<p>?</p>
+		</td>
+	</tr>
+</table><br>
+<b>Bonus:</b> King Vulture, Ocelot, Osprey, Barn Owl, Barn Swallow, Maned Wolf, Knob-billed Duck, Squirrel Monkey, Brazilian Porcupine, Long Tailed Chinchilla, Brazilian Squirrel, Kinkajou, Tayra, Giant Otter, Bairds Tapir, Turkey Vulture, American Kestrel
+<br><br>
+Anderna - Degu, Pampas Cat, Culpeo, Guanaco, Andean Condor
+<br>
+CANADA - Gyrfalcon, Reindeer
+<br>
+ARCTIC - Reindeer, Arctic Fox
+<br>
+Australia - Zebra Finch, Koala, Red Kangaroo, Platypus, Wallaby
+<br>
+Africa MADAGASCAR - Fossa, Ringtail Lemur,
+<br>
+Europe - Älg, Mus/hasselmus, kungsörn, havsörn, ormvråk/common buzzard, blåmes, skata, kråka, korp, tornuggla, rådjur, rödräv, kanin, brunråtta?, vildsvin, lodjur, brunbjörn, gråvarg, ladusvala, Fallow Deer(dovhjort), red deer (kronhjort)
+<br>
+OCEANS  - Coast North Australia: Saltwater crocodile, Great Frigatebird
+<br>	- Africa Madagascar Coast: Great Frigatebird
+<div class="accordion vertical">
+    <ul>
+        <li>
+            <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
+            <label for="checkbox-1">AFRIKA</label>
+            <div class="content">
+			<img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/afrotropic_ecozone.gif" width="200px"> <- afrotropics<br>
+			<p>(Lejon, vildhund, hyena, jackal, serval, leopard, gepard, vattenbuffel, flodhäst, giraff, elefant, noshörning, zebra, gnu, bongo, kanin, ev. mus, duva, svan, kungsörn, gazelle, gam, fiskgjuse, tornuggla, struts, krokodil, African pygmy falcon) <br><br>
+			(Tropical grassland,  desert, flooded grassland, mangroves, mediterranean forest, mountain grassland, rainforest, tropical dry forest)</p>
+        </li>
+		    </ul>
+</div>
+
+<p><b>Notes</b><br>
+How new animals (npcs) could spawn: Either they just spawn somewhere, or a female or pair could have young spawned in the breeding season, but the young would show up without a pedigree. (Or they could show a pedigree if both parents take care of them. If only one parent takes care of them, the other could show up as unknown.)
+</p>
+
+</body>
+
+</html>

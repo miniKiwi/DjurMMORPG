@@ -1,0 +1,579 @@
+@charset "UTF-8";
+
+.only_print{
+	display: none;
+}
+.pagewidth_A4 {}
+
+
+/* -------- Global settings -------- */
+body {
+	background-color: #000000;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	height: 100%;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+h1 { font-size: 24px; font-weight: normal; letter-spacing: 2px; }
+h2 { font-size: 20px; font-weight: normal; letter-spacing: 1px; }
+h3 { font-size: 16px; }
+p { font-size: 11px;}
+ul {	margin: 0; padding: 0; }
+li {list-style: none; margin: 5px;}
+span {font-size: 13px;}
+
+  
+/* -------- The layout of index.php --------*/
+#pageContainer {
+	margin: 0px auto 0px auto;
+	width: 100%;
+}
+
+#pageHeader {
+	background-image: url('images/315px-broccolisvart-header.jpg');
+	background-position: top left;
+	height: 47px;
+	width: 315px;
+}
+#pageContent {
+	background-color: #ffffff;
+	min-height:100%;
+	padding:10px 0px 10px 0px;
+	overflow: auto;
+	width: 100%;
+}
+#pageFooter {
+	margin: 0px auto;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+
+/*-------- Layout login --------*/
+
+
+
+/* -------- Layout welcome.php -------- */
+#contentContainer {
+	margin: 0;
+	min-height: 500px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+/* ------- generalized layout for design, input fields -------- */
+
+.divTable {
+	border-collapse:collapse;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+    width: 300px;
+}
+
+.divTableRow {
+	border-style: none;
+	border-width: 1px;
+	display: table-row;
+    height: 10px;
+	width: 100%;    
+}
+
+.divTableCell {
+	border-style: none;
+	border-width: 1px;
+    display: table-cell;
+	height: 100%;
+}
+
+
+/* -------- generalized layout for tables list div="showtable" class="showtable" ------------ */
+
+#showtable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px; 
+	background: #fff;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#showtable th
+{
+	background: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-top: 0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom: 2px solid #6678b1;
+}
+#showtable td
+{
+	color: #669;
+	font-size: 10px;
+	padding: 9px 8px 0px 8px;
+}
+#showtable tbody tr:hover td
+{
+	color: #009;
+}
+/* -------- End of table layout -------- */
+
+
+/* -------- Standard button layout class="button" -------- */
+.button {
+   border-top: 1px solid #660066;
+   background: #944d94;
+   background: -webkit-gradient(linear, left top, left bottom, from(#660066), to(#944d94));
+   background: -webkit-linear-gradient(top, #660066, #944d94);
+   background: -moz-linear-gradient(top, #660066, #944d94);
+   background: -ms-linear-gradient(top, #660066, #944d94);
+   background: -o-linear-gradient(top, #660066, #944d94);
+   padding: 5px 10px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;  */
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 10px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 120px;
+   }
+.button:hover {
+   border-top-color: #8c4c8c;
+   background: #8c4c8c;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #944d94;
+   background: #944d94;
+   }
+/* -------- end of button layout -------- */
+
+
+
+
+/* All code below is for 'timrapporten' and other older parts of the code before version 2.2 -------------------- */
+
+
+/* alternating table rows, invoice page */
+.alt1 {
+	background-color: #eED8EE;
+	border-style: solid;
+	border-width: 1px;
+	height: 25px;
+}
+.alt2 {
+	background-color: #FFEAFF;
+	border-style: solid;
+	border-width: 1px;
+	height: 25px;
+}
+.alt1_outoftime {
+	background-color: #ddd;
+	border-style: none;
+	height: 25px;
+}
+.alt2_outoftime {
+	border-style: none;
+	background-color: #eee;
+	height: 25px;
+}
+th.outoftime {
+	border-style: none;
+	background-color: #f1e6f1;
+}
+
+/* table used for most views: reporting times, salary and invoice report */
+#reporttable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 0px;
+	width: 100%;
+}
+#reporttable td {
+	height: 28px;
+}
+
+.sumrow{
+	font-family: arial,helvetica,sans-serif;
+	border: 1px solid black;
+	background-color: #B0B8EE;
+	height: 25px;
+}
+.sumrow_outoftime {
+	font-family: arial,helvetica,sans-serif;
+	border-style: none;
+	background-color: #bbb;
+	height: 25px;
+}
+
+table {
+	border-collapse: collapse;
+}
+th, td {
+	font-size: 11pt;
+	color: #000000;
+	font-family: arial,helvetica,sans-serif;
+	text-align: center;
+	border-collapse: collapse;
+}
+th {
+	background-color: #f1e6f1;
+	font-weight: normal;
+	border: 1px solid black;
+}
+td.leftcolumn {
+	text-align: left;
+	font-weight: bold;
+}
+
+table.borderfree, table.borderfree tr, table.borderfree td {
+	border-style: none;
+}
+
+table.hasborder, table.hasborder td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	border-spacing: 0px;
+}
+
+table.generictable {
+	border-collapse: collapse;
+	border: none;
+	margin: 10px;
+	border-spacing: 0px;
+	padding: 0px;
+}
+table.generictable > thead > th {
+	border: none;
+	padding: 4px;
+}
+table.generictable > tbody > tr {
+	padding: 0px;
+}
+table.generictable > tbody > tr > td {
+	border: 1px solid #000000;
+	padding: 4px;
+}
+th.reportheader {
+	text-align: center;
+	color: black;
+}
+
+table.dashedunderline td {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px dashed #000;
+}
+table.numberlist td {text-align: right;}
+table.numberlist td:first-child {text-align: left; font-weight: bold;}
+
+table.projectformtable td {
+	text-align: left;
+	border-collapse: collapse;
+	/*border-spacing: 0px;*/
+	/*border: 1px dotted red;*/
+}
+
+.flexTableLeft {
+	text-align: left;
+	padding-right: 10px;
+	font-weight: bold;
+}
+.flexTableRight {
+	text-align: right;
+}
+
+/* administrator portal page */
+table.admintbl {
+	border-collapse: collapse;
+	width: 1080px;
+}
+table.admintbl td {
+	padding: 10px;
+	vertical-align: bottom;
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 120px;
+}
+table.admintbl a {
+	text-decoration: none;
+	color: #cd00cd;
+}
+tr.adminhover td {
+	vertical-align: bottom;
+	width: 140px;
+}
+tr.adminhover td:hover {
+	background-color: #ffecff;
+	border-color: black;
+	cursor: pointer;
+}
+/*tr.adminhover a {
+	display: table-cell;
+	padding: 10px;
+	text-align: center;
+}*/
+
+
+/* spacing below a tr */
+tr.spaceunder > td {
+	padding-bottom: 1em;
+}
+
+/* admin employees page */
+tr.hilite:hover td {
+	background-color: #d3add3;
+	cursor: pointer;
+}
+tr.not_employed td {
+	color: gray;
+	font-style: italic;
+}
+#employeetable th {padding: 8px; margin: 0px;}
+#employeetable td {padding: 4px; margin: 0px;}
+
+/* alternating row colours in tables */
+tr.alt1 td {
+	background-color: #EED8EE;
+	border: 1px solid black;
+	height: 28px;
+}
+tr.alt2 td {
+	background-color: #ffeaff;
+	border: 1px solid black;
+	height: 28px;
+}
+
+
+/* day report page, buttons for changing the dispalyed week */
+.weekbuttons {
+	background-color: #9292CD;
+	color: #fff;
+	font-weight: bold;
+}
+.weekbuttons:disabled {
+	background-color: #ababcc;
+}
+.weekbuttons:hover {
+	background-color: #C83FFF;
+}
+.weekbuttons:hover:disabled {
+	background-color: #a3a3cc;
+}
+
+
+/* dayreport, background color of modified cell */
+.modifiedcell {
+	background-color: #e7fccf;
+}
+
+/* container of the root table */
+/* #outerdiv {
+	width: 1080px;
+	margin: 0 auto;
+	font-family: "Arial, Verdana, sans-serif";
+	background-repeat:no-repeat;
+	background-position: top right;
+	background-image: url("images/broccoli2_top.jpg");
+	text-align: center;
+	vertical-align: top;
+}
+
+*/
+
+/* the select element that displays projects and codes */
+#projectselector{
+	font-family: arial,helvetica,sans-serif;
+	font-size: 11pt;
+}
+
+/* day report, input that user enters time in */
+.timeinput {
+	width: 60px;
+	vertical-align: middle;
+}
+
+
+/* clickable image in top-left of page */
+a.imagelink {
+	text-decoration: none;
+	color: black;
+}
+
+/* instructions about how to input time */
+#becomeshidden {display: none;}
+#toggleimg img {
+	width: 32px;
+	height: 32px;
+}
+#toggleimg {
+	border: none;
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin: -8px;
+	cursor: pointer;
+}
+div.timeinfo {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid black;
+	background-color: #f1e6f1;
+	padding: 8px;
+}
+div.timeinfo ul {
+	margin: 4px;
+}
+div.timeinfo span { font-weight: bold; }
+div.timeinfo span:before { content: "["; }
+div.timeinfo span:after  { content: "]"; }
+div.ib > div , div.ib > div > div {
+	display: inline-block;
+	padding: 4px 16px 4px 16px;
+}
+
+
+/* printing instructions, where to insert page breaks */
+.pb {
+	page-break-after: auto;
+}
+
+/* used with admin report for employees' reported time */
+hr.sectionbreak {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+/* used with admin pay groups */
+.nottable {
+	display: inline-block;
+	width: 80px;
+	padding: 2px;
+	border: none;
+}
+.divframe {
+	margin-left: 16px;
+	border: none;
+	text-align: left;
+}
+
+
+/* vertical margins between table rows, used on day report */
+table.vertmargins tr {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.nobreak {} /* see print.css */
+
+table.layout {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+table.layout > tbody > tr > td {
+	vertical-align: top;
+	text-align: center;
+	border: none;/*1px dashed lightgray;*/
+	padding: 10px;
+	width: 33%;
+}
+table.layout > tbody > tr > td > div {
+	margin-bottom: 10px;
+}
+
+
+span.employeeterminated {
+	border-bottom: 1px dotted black;
+	font-style: italic;
+}
+span.employeeterminated:hover {
+	border-bottom-style: solid;
+}
+
+.commentdiv {
+	text-align: left;
+	vertical-align: top;
+}
+.commentdiv span {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+
+.projectlist ul {
+	display: inline;
+	text-align: left;
+}
+.projectlist li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+.projectlist > div {
+	display: block;
+}
+.projectlist > div > div{
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px;
+}
+
+div.box {
+	border: 1px solid gray;
+	padding: 8px;
+	margin: 4px;
+	text-align: left;
+	display: inline-block;
+	background-color: #E0E6F8;
+}
+
+.expandable {
+	border: 1px solid lightgray;
+	padding: 8px;
+	margin-top: 8px;
+}
+.simulink {
+	display: block;
+}
+.simulink:hover {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+
+}
+
+p.weekparagraph {
+	display: inline;
+}
+p.weekparagraph span {
+	font-size: 18px;
+}
+div.weekparagraph {
+	float: right;
+	margin-right: 32px;
+	padding: 2px;
+}
+div.weekparagraph:hover {
+	border: 1px solid #9292CD;
+	padding: 1px;
+}

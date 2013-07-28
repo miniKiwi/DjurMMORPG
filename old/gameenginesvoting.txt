@@ -1,0 +1,54 @@
+
+A single player or game with no more than 64 players per map, with great graphics: Unreal engine OR Cryengine.
+Any type of game, preferably singleplayer with okay graphics: Unity3D
+A MMORPG type of game with okay graphics: HeroEngine
+
+DjurMMORPG: A MMORPG with realistic graphics, animations and feeling. Nature and outdoor enviroments. Must allow very small player characters. Flying. Swimming. Water is important.
+
+Free MMORPG: A MMORPG with preferably realistic graphics. Logical and free/unrestricted gameplay number one.
+
+1. UNITY 3D 7/10
++ Easy to learn
++ Not so extremely expensive (10.000 kr ca)
++ Lots and lots of documentation
++ Designed for Indie developers
++ Friendly and informative community
+- Not the best of graphics
+- Not so nice water
+- Unsure how well it would work for big multiplayer games
++ Not based off some other game
++ Strives to allow the creation of any kind of game
+
+Asset store
+
+2. UNREAL ENGINE 4/6
++ Awesome graphics
+- Confusing licensing system
+- Strange way of building?
++ MMORPGs have been made with this engine.
++ Nice effects
++ Large community
+- Can not support more than 64 players (per map?) if no license if bought.
+UNREAL ENGINE IS OUT.
+
+3. CRYENGINE 4/6
++ Awesome graphics
++ Awesome already functioning water
++ No license required for a completely free game. If you the game earns money, CryEngine wants 20%.
+- Confusing to learn
++ MMORPGs have been made with this engine.
+- They speak alot about mods for Crysis etc.
+- Needs full engine license to communicate with server?
+- Crytek doesn't sell licenses to individuals. (OLD)
+In short: if you're able to acquire a license containing the engine source code, and provided you have the skills and knowledge to implement the network and content streaming code required for an MMO, there's nothing in the engine itself (rendering, physics, AI etc) that would prohibit you from creating an MMO. ;)
+CRYENGINE POSSIBLY OUT.
+
+4. HeroEngine 5/6
++ Made for MMORPGs
++ Pays all costs
++ Up and running fast
++ Takes only 30% of income
++ Online building
+- Not the best graphics. Not so much better than Unity.
++ Good documentation
++ Useful forum

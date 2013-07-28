@@ -1,0 +1,135 @@
+
+DJUR SIMULATION MMORPG
+
+apex Stort solitärt rovdjur (björndjur, kattdjur)             Stort/mellan bytesdjur (hovdjur)
+evapex Stort socialt rovdjur  (hunddjur)                        Stort bytesdjur        (hovdjur)
+medh Medium solitärt rovdjur (kattdjur)                       Mellan/litet bytesdjur (hovdjur, gnagare, hardjur)
+medk Medium socialt rovdjur  (hunddjur)                       Mellan bytesdjur       (hovdjur)
+
+Litet Bytesdjur fågel
+Mellan Bytesdjur fågel                                    Jägare Fågel
+
+Savann, öken / Afrika
+	(Lejon, vildhund, hyena, jackal, serval, leopard, gepard, vattenbuffel, flodhäst, giraff, elefant, noshörning, zebra, gnu, bongo, kanin, ev. mus, duva, svan, kungsörn, maned wolf, gazelle, gam, fiskgjuse, tornuggla, struts, krokodil)
+	
+	apex      Lejon /hyena                 Harpy Eagle/struts			Elefant					Krokodil
+	evapex		Afrikansk vildhund /hyena	Gam							Vattenbuffel				?
+	?k			Leopard						Svan						Gnu
+	?k			Gepard/Maned Wolf			Tornuggla					Gazelle
+	medh		Jackal						Duva						Zebra (ej jackal)
+	medk		Serval						Duva						Kanin
+	
+
+Skog, grässlätt / Europa (nord)
+	(gråvarg, brunbjörn, rödräv, lodjur, älg, rådjur, kanin, duva, svan, kungsörn, tornuggla, vildkatt, fink, mus, ev. vildponny, ev. myskoxe)
+	
+	apex 	Gråvarg/Brunbjörn				Örn	, tornuggla				Älg
+	medh	  Rödräv						Svan						Rådjur 
+	medk		Lodjur						Duva						Kanin
+	min			Vildkatt					Fink						Mus
+	
+Grässlätt, Canyons / Nordamerika
+	(gråvarg, puma, brunbjörn, coyote, bobcat, elk, bighorn sheep, kanin, starling, gås, red tailed hawk, rödräv, bisonoxe, ev. vildhäst, fiskgjuse)
+	
+	apex		Gråvarg, Brunbjörn			RTH, Fiskgjuse				Elk, Bisonoxe
+	evapex		Puma						Duva?						Vildhäst
+	medh		Coyote, Rödräv				Gås							Kanin
+	medk		Bobcat						Starling					Mus
+
+Ev. Regnskog / Sydamerika
+
+Ev. Regnskog / Asien, indien
+
+
+Ev. Polarområde, tundra, glaciär / Alaska, Nordpolen, Norra Europa
+	Stort Solitärt Rovdjur (björndjur,kattdjur) = Isbjörn
+	Medium Bytesdjur        (hovdjur)           = Ren
+	                                            = Säl
+	Medium ??? Rovdjur (hunddjur)               = Polarräv
+	
+					Årstider						Äta
+					Dag & Natt						Dricka
+					Skador							Jaga
+					Sjukdomar						Vila / sov
+													Socialisera
+													Bygga bo
+													Revir
+													Ungar
+													Gräva / Klättra
+													Flock
+									Poängsamling
+									Highscores
+									
+								Shop - Accessories, Customization options (colors, patterns etc)
+
+The player, if he/she chooses to start a new character which is still young and has npc parents, the parents will whisper/say (in the chat) instructions and tips to help the player learn how to play the game. They may also give the player quests (Like "Try and do this/that" and if player does that, they might say "Well done" or something like that, or maybe a comment or a tip). The player could also interact with the NPC parents, by writing in the chat to answer simple questions. (Like "Do you wish to know more about this?" and the player could answer "Yes" and the npc would tell the player more.)
+	
+	Predators of Red-tailed Hawks include Raccoons, Great Horned Owls, and Red Fox.
+	A red tailed hawk may only choose another mate if the first one dies.
+	(opt. IF a player character is able to kill their mate, and does so more than once, it may get a title. Maybe also a debuff.)
+	
+	A female osprey may choose several mates if they wish. The young may then have different parents. Only one male will stay with the female and care for the young.
+	
+Lions own packs. The male (or males, usually siblings) guards his territory and pack. Females hunt and care for their cubs. 
+
+A lioness will give birth away from the rest of the pride, in a den or nest (like a cave, thicket, reed-bed or other sheltered area). The cubs are born blind, they open their eyes about a week after birth. The lioness moves her cubs to a new den site several times a month, carrying them one by one by the nape of the neck, to prevent scent from building up at a single den site and thus avoiding the attention of predators that may harm the cubs. The cubs begin to crawl around a day or two after birth, and start to walk around three weeks of age. The cubs will be introduced to the pride when they are six to eight weeks old. If there are other lionesses whom have given birth at about the same time, the introduction may be earlier. 80% of cubs die before the age of 2.
+
+Weaning occurs after six to seven months. Male lions reach maturity at about 3 years of age and, at 4–5 years of age, are capable of challenging and displacing the adult male(s) associated with another pride. They begin to age and weaken between 10 and 15 years of age at the latest
+
+IF player plays a MALE Lion. A male lion character will get attacked by the pride's male(s) when he reaches a certain age, and the player may choose to leave the pride then or earlier (as long as the character is independent from the mother). The player might form a group with an NPC (or player) sibling, or a stranger NPC male that is young enough(?) or any other player. The character may at any time try to take over a pride through battle, or through scaring away the pride's male(s). The player character may also find lone lionesses or lionesses without a male in their pride, and join/add them to the pride.[Unrelated females will rarely accept eachother] If a player character has any other lions in their pride already (npc or players, both genders) they will stay with the pride. If there are any other adult male lions in the pride played by other players, they will be "ranked" just below the nr 1 male. Either the npc in the pride "logs in" and "logs out" with the rank 1 male, or with the male who logs out last. And then "logs in" with the male who logs in first. This could be decided by the players. The players could decide which player character the pride "belongs to" (logs in and out with). If a player character belongs to a pride, that is currently not online, and the player character creates a new pride, he will leave the old one. Maybe every player character in the tribe could "own" a few npcs each (if they wish), so that there are some members of the pride there if they wish to play alone after the rest of the pride has disconnected. A lion may leave their pride at any time.
+A lone lioness will have more trouble being accepted by a stranger pride than a male.
+	
+If a player creates a character of a certain species for the first time, it will have limited or no customization options, instead having to start with a randomized character. The player could then unlock customization options through gameplay, which then would be available next time a character och the same species is created.	
+
+All characters and NPCs could have traits. Traits determine the personality of the npcs, how they behave. For a player character, I'm not quite sure what it would do. But if the player character for some reason becomes an NPC, the trait  will then decide their behaviour.
+
+IF a player logs out while having young that has not yet grown up, the mate and young "log out" too, and disappear from the game world when the player logs out. They then "log in", or come back, when the player logs in again. If the player has a nest, the nest stays in the game world as usual, disappearing first when the materials rot away (or get stolen). If the nest is completely gone when the player logs in again, a new nearby nest is randomly chosen (and built, to maybe 70% and with standard materials). The player (and it's mate and young, if it has any at the moment), will be invincible the first few seconds (30?) after logging in or encountering a loading screen, but they also cannot attack anything at that time. A player that is AFK (after some time of inactivity), might get a defensive buff causing it to take less damage from incoming attacks. Should the player become active again the buff and AFK-status instantly disappears.
+There might be a server where killing (or hurting, or stealing from) other players is forbidden (by code/programming). It could be called the Safe server. Or Peaceful server.. Or something like that.
+
+If a player is in a pack (or the leader of a pack), the pack might "log out" with it, and "log in" when the player logs in again. This could be maybe only if the player is the pack's leader, and only if there are no other players in the pack.
+
+A player might be able to, with real money, purchase up to four extra character slots. (Starts with one, max is five.) The player could also eventually buy or earn/unlock customization options for creating a character. A character can get buffs and stat bonuses by earning skills ingame, and by appearance etc. It can also get injured, and get scars. The injuries may give debuffs, and will be visible on the character. Scars will also be visible, and might affect gameplay (ex. If the character is deaf, there will be no sound effects. If it has one deaf ear, one speaker wont play any sounds. If it has one blind eye, half of the screen could get blurry and/or whiteish/dim. And if it is blind on both eyes.. Well then the player kinda has a problem. That would appear on the screen as very blurry and/or whiteish, all over the screen. The player would be able to see, but not very clearly. These effects could eventually be able to be turned off.)
+Example: If a male lion character has a large mane, females will like him more.
+Example 2: If a character is very large, it may have an increase in power but a decrease in agility. (slight)
+
+The player character has genes, which gets transferred to it's offspring. NPC's also have genes. Eventually the player could, with the use of real or collected (through gameplay) money, be able to save and store genes and customization options to use later when creating new characters. The player could, when it's character dies, choose to continue to play as one of their characters offspring (requiring the character to have offspring currently alive in the game world). Or maybe the player could choose to play as the characters young without the player character dying, and turn the original character into an npc. Maybe that would cost ingame money though. (WHAT IF the offspring is adult? Maybe it doesn't matter) This way they could continue the line. IF the choosen offspring is claimed as a mate by another player, the other player would have to accept before the first player can play as that NPC/offspring. Or it could just not be available at all. Maybe the other player could have to be accepted as a mate for the first players characters offspring by the first player.. <- don't think this should be added..(-Maybe turn this on or off in options-). 
+A player could continue his (or her) line if he/she wanted to, by changing the active player character. That way the progress would not be lost when the player logs out and remains logged out for a longer time period.
+
+	The characters (and NPCs) will have stats
+	Strength      = How strong the character is, how much damage it can deal. Bonus if the character is large.
+	Stamina       = How long the character can keep running fast?
+	Speed         = How fast the character runs and how quick it's blows are when fighting
+	Agility       = How agile the character is, affects chance of dodge in fights (causing the opponent to miss), and maybe how well it can turn around quickly? Bonus if the character is small.
+	Intelligence  = Kinda determined by the players skill. Might not be used for player characters, but may be used for npcs..
+	
+	The npcs and characters will have traits that determine the npc's behaviour and might act like buffs (some can be changed through gameplay)
+	Maybe these traits could also be more or less prominient (like percentage) (So a 100% will have 50% chance of doing a certain action, while someone who doesn't show (only carries or doesn't have at all) has 10% chance of doing it. A 70% will then have a 20%)
+	KK Kind - Will be kind and agreeable.
+	AA Aggressive (can be taught/learnt) - Will not hestitate to attack or be aggressive if given the opportunity. 
+		Might only affect behaviour towards own 		species. (Will not have any effect on player characters. If a player character behaves aggressively, they might earn this trait. Conflicts with Submissive (can only have one of these at once))
+	aa Submissive (can be taught/learnt) - Will almost always give in instantly and never wishes to fight. Might only affect behaviour towards own species. 	
+		(Will not have any effect on player characters. If a player character behaves submissively, they might earn this trait. Conflicts with Aggressive (can only have one of these at once))
+	bb Shy - Will be easily scared and might be submissive, will not be very social and will stay away from strangers.
+	BB Bold - Will be brave and bold towards own species.
+	FF Firm - Will not be easily scared, will be calm and good with taking care of young. Will be a good leader and often trusted by other npcs.
+	PD Prey Drive - (only predator) If high, will happily chase any prey it sees and love to play chase. IF low - never chases prey unless it is a very easy 
+		target, and is late to help with pack hunts. Usually does not want to play chase or gives in easily.
+	II Skittish - Will be afraid of anything that might be dangerous.
+	VV Adventurous - Will happily try new things, and is usually not afraid. Might try new things, like batting snakes or climbing trees or exploring.
+	vv Adventurousopposite - Will prefer to stay at home and never ventures far from the pack (if it's a pack animal).
+	LL Loner - Prefers to be mostly alone, and does not especially enjoy company. If pack animal, might stay on the outskirst and not rest unnessecary close to 
+		the group. Conflicts with affectionate. (Dominant over affectionate? = If both are there only Loner will be showing.)
+	ll Social - Very social, loves to be surrounded by own species, and often socializes. (buff for being around own species, uses social behaviours 
+		(groom/greet etc) more often.)
+	UU Protective - Will protect everything and everyone that is not the enemy.
+	uu Unprotective - /unsure. Will not protect their young or pack members very well, but will stay nearby if they are attacked and behave confused. Also 
+		might try to help but quickly "fega ur". Might be similar to submissive, although does not really affect pack behaviour. Might conflict with aggressive.
+	EE Affectionate - Will be very loving, might bring gifts and loves social interactions (groom/greet etc). (May bring gifts often, may stay nearer, often 
+		accepts social interactions and will groom/greet etc more often. Will be easier to build a positive relationship with).
+		Might be a behaviour that is either "earned" or randomly added, and might only be displayed towards certain characters? Or the trait could be a milder version, and then there could be something else that must be built up.
+	CC Childish - Loves to play and often initiates games. Might not be very serious. Might also not be very good at taking care of their young (or it could be 
+		a separate trait).
+	cc Grown - Prefers not to play games, makes sure others follow the rules (and themselves too), and will be more strict and serious. 
+		(Will often decline game invites (walk away/ignore) [lioness - will not accept unrelated females] will make cubs and subordinates stay within borders, might try to stop adventurous characters. [Alpha females (wolves, meerkats, hyenas etc) will almost never (90%) tolerate other females having cubs]
+	DD Dominant - Will eat first, eat the best, rest in the best spot etc.
+	ZZ Bezzerwizzer
