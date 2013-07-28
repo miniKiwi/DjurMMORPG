@@ -19,7 +19,6 @@ if(!isset($_SESSION['Username'])) {
 <body>
 <header>
 <h3>DJUR SIMULATION MMORPG</h3>
-<nav><?php include ('MainMenu.php') ?></nav>
 </header>
 <!--
 <a href="djurspel-plan_CCreation.html">Character Creation</a> | 

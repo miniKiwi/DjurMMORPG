@@ -56,14 +56,17 @@ header("Link: <$page_url?location=index>; rel=\"previous\"; title=\"UTF-8'se'Inl
 <body>
 
 <!-- page structure -->
-	<div id="pageContainer">
+<div id="pageContainer">
+		<header id="pageHeader">		
 			<?php include ('header.php'); ?>
+		</header>
 		
 		<div id="pageContent">
 						
 			<?php changelocation($location); /* When function changelocation is called, new content is included here */ ?>
 		
 		</div>
+		
 		<footer id="pageFooter">
 			<div class="no_print">
 				<?php include ('footer.php'); ?>
@@ -75,7 +78,7 @@ header("Link: <$page_url?location=index>; rel=\"previous\"; title=\"UTF-8'se'Inl
 				</div>
 			<?php } ?>
 		</footer>
-	</div>
+</div>
 
 </body>
 </html>

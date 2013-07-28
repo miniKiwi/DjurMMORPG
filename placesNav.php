@@ -2,7 +2,7 @@
         <li> AFRICA
             <ul class="sub-menu">
                 <li><a href="showAnimalListTable.php?location=africaDesert">Desert</a></li>
-                <li><a href="showAnimalListTable.php?location=africa">Savannah</a></li>
+                <li><a href="showAnimalListTable.php?location=Africa">Savannah</a></li>
                 <li>Rainforest</li>
 		<li>Madagascar</li>
             </ul>

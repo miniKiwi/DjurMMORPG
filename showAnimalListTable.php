@@ -56,16 +56,17 @@ header("Link: <$page_url?location=showAnimalListTable>; rel=\"previous\"; title=
 <body>
 
 <!-- page structure -->
-	<div id="pageContainer">
+<div id="pageContainer">
+		<header id="pageHeader">		
 			<?php include ('header.php'); ?>
+		</header>	
 		
 		<div id="pageContent">
-			<?php include ('MainMenu.php'); ?><br>
 			<?php include ('placesNav.php'); ?>
 			
 			<?php changelocation($location); /* When function changelocation is called, new content is included here */ ?>
-		
 		</div>
+
 		<footer id="pageFooter">
 			<div class="no_print">
 				<?php include ('footer.php'); ?>
@@ -77,7 +78,7 @@ header("Link: <$page_url?location=showAnimalListTable>; rel=\"previous\"; title=
 				</div>
 			<?php } ?>
 		</footer>
-	</div>
+</div>
 
 </body>
 </html>

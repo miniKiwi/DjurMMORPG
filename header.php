@@ -1,11 +1,12 @@
-<header id="pageHeader" class="no_print">
 <h1 id="ContentHeader">WILDLIFE</h1>
 
 <a href="index.php">Back to start</a><br>
 
+<br>
+
 <?php			
 
-$loggedIn = '<span class="no_print" style="color: #fff">';
+$loggedIn = '<span class="no_print">';
 if( isset($_SESSION['Username']) ) {
 	$loggedIn .= 'You are currently logged in as <b>' . $_SESSION['Username'] . '</b>.';
 } else {
@@ -33,4 +34,9 @@ echo $loggedIn;
 			}
 ?>
 
-</header>
+<p id="HeadNav">
+TempMenu:&#160;
+<a href="djurspel-plan_CCreation.html">Character Creation</a> | 
+<a href="showAnimalListTable.php">AnimalList</a> |
+</p>
+<br><br>
