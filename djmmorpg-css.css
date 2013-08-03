@@ -78,6 +78,7 @@ span {font-size: 13px;}
 .ContentText {
     /*float: ;*/
     clear: both;
+	padding-top: 10px;
 }
 
 .ContentList {
@@ -109,7 +110,9 @@ span {font-size: 13px;}
 	padding-top: 12px;
 }
 
-.ContentTopic{}
+.ContentTopic{
+	padding-top: 10px;
+}
 
 .ContentLogin{
     text-align: center;
