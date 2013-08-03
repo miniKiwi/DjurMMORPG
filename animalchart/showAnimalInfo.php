@@ -96,7 +96,7 @@ $result2 = mysql_query($sql2) or die(mysql_error());
 
 <body>
 
-<header>
+<header id="HeadNav">
 <h3 id="top"><?php echo $animal_name_eng;?></h3>
 	<i><a href="https://en.wikipedia.org/wiki/<?php echo $animal_name_eng;?>" target="_blank"><?php echo $animal_name_latin;?></a></i>
 	<?php echo $animal_name_swe;?>
