@@ -103,8 +103,8 @@ $result2 = mysql_query($sql2) or die(mysql_error());
 	<small><a href="../showAnimalListTable.php?location=<?php echo $area;?>"><< Tillbaka till tabell</a></small>
 </header>
 
-<div class="ContentPic">
-<img src="../images/<?php echo $picture;?>" alt="stor fet bild" width="450px">
+<div>
+<img class="ContentPic" src="../images/<?php echo $picture;?>" alt="stor bild">
 </div>
 
 <!--  start outputting data in ContentList  -->
@@ -121,8 +121,8 @@ $result2 = mysql_query($sql2) or die(mysql_error());
 
 <!-- lista på rubriker hämtat från wl_Toc -->
 
-<div class="ContentMap">
-<img class="ContentMap" src="<?php echo $map;?>" alt="stor fet bild">
+<div>
+<img class="ContentMap" src="<?php echo $map;?>" alt="stor bild">
 </div>
 
 <div class="ContentProperties">
@@ -141,34 +141,10 @@ $result2 = mysql_query($sql2) or die(mysql_error());
 	?>
 </div>
 
-<div class="ContentText">
-	<h1>The story continues...</h1><br>
-	<?php
-	//Point to 0 (zero) to reuse the mysql_fetch_assoc without do another sql query.
-	mysql_data_seek ($result1, 0);
-	$class = 'class="ContentTopic"';
-	while( $xs = mysql_fetch_assoc($result1) ) {
-			echo "<div $class>" . $xs['ContentText'] . "</div>";
-	}
-	?>
-</div>
 
 
 
-
-
-<a href="#eyecolors">Eye colors</a><br>
-<a href="#markings">Markings</a><br>
-Genetics<br>
-<a href="#interactions">Behaviour</a><br>
-<a href="#diet">Diet</a><br>
-<a href="#sounds">Sounds</a><br>
-<a href="#ages">Age and maturity</a><br>
-possible traits (coming, must complete separate list)<br>
-<a href="#ill">sicknesses</a><br>
-<a href="#interbreed">Interbreeding</a><br>
-
-
+<!--
 <div id="ainfo">
 <table>
 <tr>
@@ -187,8 +163,22 @@ Coloration on males and females.<br>
 </td>
 </tr>
 </table>
-</div>
+</div> -->
 <p>Reference pictures, sounds, model, textures, animations.</p>
+
+<div class="ContentText">
+	<h1>The story continues...</h1><br>
+	<?php
+	//Point to 0 (zero) to reuse the mysql_fetch_assoc without do another sql query.
+	mysql_data_seek ($result1, 0);
+	$class = 'class="ContentTopic"';
+	while( $xs = mysql_fetch_assoc($result1) ) {
+			echo "<div $class>" . $xs['ContentText'] . "</div>";
+	}
+	?>
+</div>
+
+_____
 
 <b id="colors">COLORS</b><br>
 Any color morphs?<br>
