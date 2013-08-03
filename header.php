@@ -1,6 +1,10 @@
 <h1 id="ContentHeader">WILDLIFE</h1>
-
-<br>
+<p id="HeadNav">
+TempMenu:&#160;
+<a href="index.php">Start</a> | 
+<a href="djurspel-plan_CCreation.html">Character Creation</a> | 
+<a href="showAnimalListTable.php">AnimalList</a> |
+</p>
 
 <?php			
 
@@ -32,10 +36,5 @@ echo $loggedIn;
 			}
 ?>
 
-<p id="HeadNav">
-TempMenu:&#160;
-<a href="index.php">Start</a> | 
-<a href="djurspel-plan_CCreation.html">Character Creation</a> | 
-<a href="showAnimalListTable.php">AnimalList</a> |
-</p>
+
 <br><br>
