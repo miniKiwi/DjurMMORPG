@@ -38,6 +38,12 @@ $listword = "";
 $listword_description ="";
 $contenttext = "";
 $row = "";
+$juvenilecolorcode = "";
+$juvenilecolorname = "";
+$adultcolorcode = "";
+$adultcolorname = "";
+$genderspecific = "";
+$geneticcode = "";
 
 
 
@@ -67,12 +73,21 @@ WHERE Animal_Name_Latin='$animal_name_latin' ";
 
 $result1 = mysql_query($sql1) or die(mysql_error());
 
+// fetch data from wl_AnimalProperties
 $sql2 = "
 SELECT LifeSpan, Size, Weight, Devour, Devour_Comment, Circadian, Circadian_Comment, NameSynonyms
 FROM ".Database::AnimalProperties."
 WHERE Animal_Name_Latin='$animal_name_latin' ";
 
 $result2 = mysql_query($sql2) or die(mysql_error());
+
+// fetch data from wl_AnimalColors
+$sql3 = "
+SELECT JuvenileColorCode, JuvenileColorName, AdultColorCode, AdultColorName, GenderSpecific, GeneticCode
+FROM ".Database::AnimalColors."
+WHERE Animal_Name_Latin='$animal_name_latin' ";
+
+$result3 = mysql_query($sql2) or die(mysql_error());
 ?>
 
 <!DOCTYPE html>
@@ -164,10 +179,20 @@ Coloration on males and females.<br>
 </tr>
 </table>
 </div> -->
+
 <p>Reference pictures, sounds, model, textures, animations.</p>
 
 <div class="ContentText">
 	<h1>The story continues...</h1><br>
+	<?php 
+	mysql_data_seek ($result3, 0);
+	$class = 'class="Colors"';
+	while( $xs = mysql_fetch_assoc($result3) ) {
+			echo "<div $class>" . "<span style="background-color:" . $xs['JuvenileColorCode'] . ";" . "border:1px solid " . $xs['JuvenileColorCode'] . "width:20px;color:" . $xs['JuvenileColorCode'] . ">" . $xs['JuvenileColorCode'] . "</span>" . $xs['JuvenileColorName'] . 
+			"<span style="background-color:" . $xs['AdultColorCode'] . ";" . "border:1px solid " . $xs['AdultColorCode'] . "width:20px;color:" . $xs['AdultColorCode'] . ">" . $xs['AdultColorCode'] . "</span>" . $xs['AdultColorName'] . $xs['GeneticCode'] . "</div>";
+	}
+	?>
+	
 	<?php
 	//Point to 0 (zero) to reuse the mysql_fetch_assoc without do another sql query.
 	mysql_data_seek ($result1, 0);

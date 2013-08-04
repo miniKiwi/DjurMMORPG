@@ -74,18 +74,14 @@ if (isset($_POST['Submit'])) { // Data was POSTed here - add animal to database:
 	}
 
 	$juvenilecolorcode = $_POST['juvenilecolorcode'];
-	if($juvenilecolorcode == "") {
-		$alert .= "Juvenile color code is empty! ";
-	} else {
+	
 		$juvenilecolorcode = mysql_real_escape_string(Functions::stripAllSlashes($juvenilecolorcode));
-	}
+
 
 	$juvenilecolorname = $_POST['juvenilecolorname'];
-	if($juvenilecolorname == "") {
-		$alert .= "Juvenile color name is empty! ";
-	} else {
+	
 		$juvenilecolorname = mysql_real_escape_string(Functions::stripAllSlashes($juvenilecolorname));
-	}
+
 
 	$adultcolorcode = $_POST['adultcolorcode'];
 	if($adultcolorcode == "") {
@@ -181,7 +177,14 @@ mysql_close();
 		$ (document).ready(
 			function ()
 			{
-				$('#juvenilecolorcode').jPicker({window:{position:{x:'30',y:'center'},expandable: false,liveUpdate: true}});
+				$('#juvenilecolorcode').jPicker({color: {active: '#FFCC00'}, window:{position:{x:'30',y:'center'},expandable: false,liveUpdate: true}});
+			});
+</script>
+<script type="text/javascript">
+		$ (document).ready(
+			function ()
+			{
+				$('#adultcolorcode').jPicker({color: {active: '#FFCC00'}, window:{position:{x:'30',y:'center'},expandable: false,liveUpdate: true}});
 			});
 </script>
 
@@ -193,7 +196,7 @@ mysql_close();
                 Latin Name
             </div>
             <div class="divTableCell">
-				&#160;&#160;&#160;&#160;&#160;Amount of rows
+				&#160;&#160;&#160;Amount of rows
             </div>
 	</div>
 	<div class="divTableRow">
@@ -202,9 +205,9 @@ mysql_close();
             </div>
             <div class="divTableCellSpaced">
                 	<select>
-				<option>Maybe there is a </option>
-				<option>better way to do this</option>
-				<option>than a dropdown?</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
 				
 			</select>
             </div>
@@ -217,13 +220,13 @@ mysql_close();
 				<center>GENDER</center>
 			</div>
 			<div class="divTableCellHeader">
-				JUVENILE COLORCODE
+				JUVENILE COLOR CODE
 			</div>
 			<div class="divTableCellHeader">
 				JUVENILE COLOR NAME
 			</div>
 			<div class="divTableCellHeader">
-				ADULT COLORCODE
+				ADULT COLOR CODE
 			</div>
 			<div class="divTableCellHeader">
 				ADULT COLOR NAME
@@ -242,13 +245,13 @@ mysql_close();
 				</select>
 			</div>
 			<div class="divTableCell">
-				<input type="text" name="juvenilecolorcode" id="juvenilecolorcode" placeholder="" required value="<?php echo $juvenilecolorcode;?>">
+				<input type="text" name="juvenilecolorcode" id="juvenilecolorcode" placeholder="" value="<?php echo $juvenilecolorcode;?>">
 			</div>
 			<div class="divTableCell">
-				<input type="text" name="juvenilecolorname" id="juvenilecolorname" placeholder="" required value="<?php echo $juvenilecolorname;?>">
+				<input type="text" name="juvenilecolorname" id="juvenilecolorname" placeholder="" value="<?php echo $juvenilecolorname;?>">
 			</div>
 			<div class="divTableCell">
-				<input type="color" name="adultcolorcode" id="adultcolorcode" placeholder="" required value="<?php echo $adultcolorcode;?>">
+				<input type="text" name="adultcolorcode" id="adultcolorcode" placeholder="" required value="<?php echo $adultcolorcode;?>">
 			</div>
 			<div class="divTableCell">
 				<input type="text" name="adultcolorname" id="adultcolorname" placeholder="Color name" required value="<?php echo $adultcolorname;?>">
