@@ -2,7 +2,7 @@
 <p id="HeadNav">
 TempMenu:&#160;
 <a href="index.php">Start</a> | 
-<a href="djurspel-plan_CCreation.html">Character Creation</a> | 
+<a href="CharacterCreation.php">Character Creation</a> | 
 <a href="showAnimalListTable.php">AnimalList</a> |
 </p>
 
