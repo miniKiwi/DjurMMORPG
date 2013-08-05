@@ -6,11 +6,13 @@ TempMenu:&#160;
 <a href="showAnimalListTable.php">AnimalList</a> |
 </p>
 
+
 <?php			
 
 $loggedIn = '<span class="no_print">';
+$admin = '<a href="admin/index.php">Admin</a>';
 if( isset($_SESSION['Username']) ) {
-	$loggedIn .= 'You are currently logged in as <b>' . $_SESSION['Username'] . '</b>.';
+	$loggedIn .= $admin . '<br>' . 'You are currently logged in as <b>' . $_SESSION['Username'] . '</b>.';
 } else {
 	$loggedIn .= 'You are not currently logged in.';
 }
