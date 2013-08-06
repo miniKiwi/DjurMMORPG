@@ -4,6 +4,7 @@ TempMenu:&#160;
 <a href="index.php">Start</a> | 
 <a href="CharacterCreation.php">Character Creation</a> | 
 <a href="showAnimalListTable.php">AnimalList</a> |
+<a href="index.php?location=GUI.php">GUI</a>
 </p>
 
 

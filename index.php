@@ -120,6 +120,9 @@ function changelocation($location) {
 		case 'SouthAmericaRainforest':
 			include ('animalchart/SouthAmericaRainforest.php');
 			break;
+		case 'GUI':
+			include ('GUI.php');
+			break;
 		
 	default:	// should never be reached unless user delibertely typed an undefined location in browser address field...
 			echo("<p> INVALID LOCATION '$location'</p>");
