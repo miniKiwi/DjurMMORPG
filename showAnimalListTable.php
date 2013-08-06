@@ -121,16 +121,16 @@ function changelocation($location) {
 			include ('animalchart/europe.php');
 			break;
 		case 'SouthAmericaAndeans':
-			include ('southAmericaAndeans.php');
+			include ('animalchart/southAmericaAndeans.php');
 			break;
 		case 'TEMPCanada':
-			include ('canada.php');
+			include ('animalchart/canada.php');
 			break;
 		case 'AfricaMadagascar':
-			include ('africaMadagascar.php');
+			include ('animalchart/africaMadagascar.php');
 			break;
 		case 'Australia':
-			include ('australia.php');
+			include ('animalchart/australia.php');
 			break;
 		
 	default:	// should never be reached unless user delibertely typed an undefined location in browser address field...
