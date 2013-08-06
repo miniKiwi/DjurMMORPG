@@ -1,16 +1,16 @@
 <ul id="placesNav">
         <li> AFRICA
             <ul class="sub-menu">
-                <li><a href="showAnimalListTable.php?location=africaDesert">Desert</a></li>
+                <li><a href="showAnimalListTable.php?location=AfricaDesert">Desert</a></li>
                 <li><a href="showAnimalListTable.php?location=Africa">Savannah</a></li>
                 <li>Rainforest</li>
-		<li><a href="showAnimalListTable.php?location=africaMadagascar">Madagascar</a></li>
+		<li><a href="showAnimalListTable.php?location=AfricaMadagascar">Madagascar</a></li>
             </ul>
 		</li>
         <li> EUROPE
             <ul class="sub-menu">
                 <li>Temperate Grassland</li>
-		<li><a href="showAnimalListTable.php?location=europe">Coniferous Forest</a></li>
+		<li><a href="showAnimalListTable.php?location=Europe">Coniferous Forest</a></li>
 		<li>Mountain Grassland</li>
 		<li>Broadleaf forest</li>
 		<li>Taiga</li>
