@@ -4,7 +4,7 @@
                 <li><a href="showAnimalListTable.php?location=africaDesert">Desert</a></li>
                 <li><a href="showAnimalListTable.php?location=Africa">Savannah</a></li>
                 <li>Rainforest</li>
-		<li>Madagascar</li>
+		<li><a href="showAnimalListTable.php?location=africaMadagascar">Madagascar</a></li>
             </ul>
 		</li>
         <li> EUROPE
@@ -36,17 +36,18 @@
                 <li><a href="showAnimalListTable.php?location=SouthAmericaRainforest">Rainforest</a></li>
 		<li>Subtropical dry forest</li>
 		<li>Dry Steppe</li>
-		<li>Alpine Tundra</li>
+		<li><a href="showAnimalListTable.php?location=SouthAmericaAndeans">Alpine Tundra</a></li>
 		<li>Temperate Steppe?</li>
             </ul>
         </li>
         <li> AUSTRALIA
             <ul class="sub-menu">
+				<li><a href="showAnimalListTable.php?location=Australia">tempaustralia</a></li>
                 <li>Temperate Steppe? / Tree Savanna?</li>	
-		<li>Subtropical dry forest</li>
-		<li>Rainforest</li>
-		<li>Xeric shrubland</li>
-		<li>Arid Desert</li>
+				<li>Subtropical dry forest</li>
+				<li>Rainforest</li>
+				<li>Xeric shrubland</li>
+				<li>Arid Desert</li>
             </ul>
         </li>
         <li> &#160; ASIA &#160;
@@ -65,7 +66,8 @@
         <li> CANADA / NORDEN
             <ul class="sub-menu">
                 <li>Taiga</li>
-		<li>Tundra</li>
+				<li>Tundra</li>
+				<li><a href="showAnimalListTable.php?location=TEMPCanada">TempCanada</a></li>
             </ul>
         </li>
 </ul>
