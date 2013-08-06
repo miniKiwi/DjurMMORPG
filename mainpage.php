@@ -169,20 +169,7 @@ The <b>Australasian</b> ecozone covers Australia, New Guinea and the easternmost
 <!-- Maned wolves live in south america -->
 <!-- Common Kestrel lives in Scandinavia! -->
 <br><br>
-Anderna - Degu, Pampas Cat, Culpeo, Guanaco, Andean Condor
-<br>
-CANADA - Gyrfalcon, Reindeer
-<br>
-ARCTIC - Reindeer, Arctic Fox
-<br>
-Australia - Zebra Finch, Koala, Red Kangaroo, Platypus, Wallaby
-<br>
-Africa MADAGASCAR - Fossa, Ringtail Lemur,
-<br>
-Europe - moose, Mus/hasselmus, golden eagle, bald eagle, ormvråk/common buzzard, blåmes, skata, crow, raven, tornuggla, roe deer, red fox, kanin, brown rat, vildsvin, lodjur, brown bear, grey wolf, ladusvala, Fallow Deer(dovhjort), red deer (kronhjort)
-<br>
-OCEANS  - Coast North Australia: Saltwater crocodile, Great Frigatebird
-<br>	- Africa Madagascar Coast: Great Frigatebird
+
 <div class="accordion vertical">
     <ul>
         <li>
