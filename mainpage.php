@@ -26,7 +26,6 @@ if(!isset($_SESSION['Username'])) {
 <a href="index.php?location=places">Places</a> -->
 
 <div id="content">
-<a href="Birdbase.html">Birdbase</a>
 
 <!-- <div class="accordion vertical">
     <ul>
@@ -142,7 +141,7 @@ The <b>Australasian</b> ecozone covers Australia, New Guinea and the easternmost
 <!-- Maned wolves live in south america -->
 <!-- Common Kestrel lives in Scandinavia! -->
 <br><br>
-
+<!--
 <div class="accordion vertical">
     <ul>
         <li>
@@ -153,9 +152,9 @@ The <b>Australasian</b> ecozone covers Australia, New Guinea and the easternmost
 			<p>(Lejon, vildhund, hyena, jackal, serval, leopard, gepard, vattenbuffel, flodhäst, giraff, elefant, noshörning, zebra, gnu, bongo, kanin, ev. mus, duva, svan, kungsörn, gazelle, gam, fiskgjuse, tornuggla, struts, krokodil, African pygmy falcon) <br><br>
 			(Tropical grassland,  desert, flooded grassland, mangroves, mediterranean forest, mountain grassland, rainforest, tropical dry forest)</p>
         </li>
-		    </ul>
+	</ul>
 </div>
-
+-->
 <p><b>Notes</b><br>
 How new animals (npcs) could spawn: Either they just spawn somewhere, or a female or pair could have young spawned in the breeding season, but the young would show up without a pedigree. (Or they could show a pedigree if both parents take care of them. If only one parent takes care of them, the other could show up as unknown.)
 </p>
