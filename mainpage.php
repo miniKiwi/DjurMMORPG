@@ -88,48 +88,21 @@ Fighting<br>
 </div> -->
 <h3>PLACES</h3>
 <p>
-Varje <a href="#">plats/område</a> i spelet behöver ha tillräckligt många djursorter av rätt typ. Ex. rovdjur, bytesdjur till valda rovdjur, samt ofc växter till bytesdjuren etc. (växter tar vi senare). Jag har valt ut ett par "platser" som får fyllas ut med lämpliga djursorter för varje område..<br><br>
-<li>(apex) Stort solitärt rovdjur (björndjur/kattdjur)</li>
+GlÃ¶m inte vÃ¤xter.
+<!--
+Varje <a href="#">plats/omrÃ¥de</a> i spelet behÃ¶ver ha tillrÃ¤ckligt mÃ¥nga djursorter av rÃ¤tt typ. Ex. rovdjur, bytesdjur till valda rovdjur, samt ofc vÃ¤xter till bytesdjuren etc. (vÃ¤xter tar vi senare). Jag har valt ut ett par "platser" som fÃ¥r fyllas ut med lÃ¤mpliga djursorter fÃ¶r varje omrÃ¥de..<br><br>
+<li>(apex) Stort solitÃ¤rt rovdjur (bjÃ¶rndjur/kattdjur)</li>
 <li>evapex Stort socialt rovdjur (hundjur)</li>
-<li>medh Medium solitärt rovdjur (hunddjur)</li>
+<li>medh Medium solitÃ¤rt rovdjur (hunddjur)</li>
 <li>medk Medium socialt rovdjur (kattdjur)</li>
-<li>apex Stor jagande rovfågel</li>
-<li>evapex Stor asätande/omnivore fågel</li>
-<li>med jagande fågel</li>
-<li>med bytes fågel</li>
-<li>liten bytes fågel</li>
-<table class="nTable">
-	<tr>
-		<td>
-		<p>stort</p>
-		</td>
-		<td>
-		<p>solitärt</p>
-		</td>
-		<td>
-		<p>rovdjur</p>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<p>stort</p>
-		</td>
-		<td>
-		<p>socialt</p>
-		</td>
-		<td>
-		<p>rovdjur</p>
-		</td>
-	</tr>
-</table>
-<div>
-
-</div>
-<br> Alternativt skulle man kanske kunna ta en av varje djursort på varje plats.. hmm..<br>
-
-<br><p>Eventuellt att alla djur är länkade till sin egna informationssida.</p>
-
-björnar
+<li>apex Stor jagande rovfÃ¥gel</li>
+<li>evapex Stor asÃ¤tande/omnivore fÃ¥gel</li>
+<li>med jagande fÃ¥gel</li>
+<li>med bytes fÃ¥gel</li>
+<li>liten bytes fÃ¥gel</li>
+-->
+<!--
+bjÃ¶rnar
 kattdjur
 hunddjur
 
@@ -145,11 +118,11 @@ ailuridae (red panda only)
 mephitidae (skunks)
 procyonidae (raccoons, kinkajous etc)
 mustelidae
-pinnipedia (seals, walrus etc)
+pinnipedia (seals, walrus etc) -->
 <br><br>
-<p>
+</p>
 <img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/neotropic_ecozone.gif" width="100px">
-The <b>Neotropical</b> ecozone incorporates South and Central America, plus the southern part of Mexico, the Caribbean Islands and Florida.</p>
+The <b>Neotropical</b> ecozone incorporates South and Central America, plus the southern part of Mexico, the Caribbean Islands and Florida.
 <br>
 <img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/624x351/location/palearctic_ecozone.gif" width="100px">
 The Palaearctic ecozone is the world's largest. It covers northern Africa, Europe, the northern part of Arabia and all of Asia north of the Himalayas. Japan and Iceland are also part of this ecozone.
